@@ -1,0 +1,11 @@
+
+public class Ex_01_Operator {
+	public static void main(String[] args) {
+		int x = -100;
+		int result = +x;//+부호를 붙임 예상답:+100
+		int result2 = -x;//-부호를 붙임 예상답:+100
+		System.out.println("(+x) result="+result);
+		System.out.println("(-x) result="+result2);
+	}
+
+}

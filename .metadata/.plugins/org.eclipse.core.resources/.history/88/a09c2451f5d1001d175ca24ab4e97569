@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Test03 {
+	public static void main(String[] args) {
+		//다항연산자 또는 이항연산자 를 이용해서 문제 풀어보기
+		//Scanner 이용해보기
+		Scanner sc = new Scanner(System.in);
+		String inputData1 = sc.nextLine();
+		int num=15;
+		System.out.println(inputData1);
+		
+		int iNum = Integer.parseInt(inputData1);
+		
+		
+		
+		
+		
+	}
+
+}

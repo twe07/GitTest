@@ -1,0 +1,15 @@
+
+public class Ex_01_Operator {
+	public static void main(String[] args) {
+		int x = -100;
+		int result = +x;//+부호를 붙임 예상답:+100
+		int result2 = -x;//-부호를 붙임 예상답:+100
+		System.out.println("(+x) result="+result);
+		System.out.println("(-x) result="+result2);
+		System.out.println( "(-x)x*-1 =" + x *-1);
+		//실생활에서 앞에 +기호를 붙인걸 본적이 있는지? - 없음
+		//-부호는 부호를 반전시키는 규칙이 있음 (+는 아무 규칙 없음)
+		
+	}
+
+}

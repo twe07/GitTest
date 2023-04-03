@@ -1,0 +1,30 @@
+
+public class Test01 {
+	public static void main(String[] args) {
+		int iNum; //선언
+		iNum=1;//할당
+		System.out.println(iNum);
+		
+		long lNum=2;//초기화
+		System.out.println(lNum);
+		
+		double dNum;
+		dNum= 3.14;
+		System.out.println(dNum);
+		
+		byte bNum;
+		bNum= 3;
+		System.out.println(bNum);
+		
+		float fNum;
+		fNum= 3.14F;
+		System.out.println(fNum);
+		
+		String kim;
+		kim= "123";
+		System.out.println(kim);
+		
+		
+	}
+
+}

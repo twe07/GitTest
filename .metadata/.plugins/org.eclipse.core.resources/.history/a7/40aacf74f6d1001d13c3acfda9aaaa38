@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Test03 {
+	public static void main(String[] args) {
+		//다항연산자 또는 이항연산자 를 이용해서 문제 풀어보기
+		//Scanner 이용해보기
+		Scanner sc = new Scanner(System.in);
+		String Data = sc.nextLine();
+		
+		String str1 = "홀수";
+		String str2 = "짝수";
+		int iNum = Integer.parseInt(Data);
+		System.out.println(iNum);
+		
+		
+		
+		
+		
+		
+	}
+
+}

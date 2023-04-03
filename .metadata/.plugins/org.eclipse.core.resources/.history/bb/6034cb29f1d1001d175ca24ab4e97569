@@ -1,0 +1,44 @@
+
+public class Ex08_Oper {
+	public static void main(String[] args) {
+		//비교 연산자: 조건문에 많이 사용된다.
+		//조건: 어떤 식이 참인지 또는 거짓인를 판단하는것
+		//id와 pw 가 내가 입력한값과 DB에 있는 값이 일치하는지?
+		//"아이디 또는 비밀번호를 확인하세요"
+		// 조건은 반드시 true 와 false 의 답을 얻을수 있어야 한다.
+		int num1=10, num2=10;
+		//이상, 이하, 초과, 미만, 같다, 같지않다
+		// 조건식을 사용하고 나서는 경과가 반드시 true , false 가 나온다.
+		boolean result1 = num1 == num2; //true---    10 = 10
+		boolean result2 = num1 != num2; // false---    10 과 10 은 같으나 ! 부호로 반전
+		boolean result3 = num1 <= num2; // true---    10이하의 숫자인가?
+		
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println(result3);
+		
+		System.out.println(num1 == num2); //10 = 10
+		System.out.println(num1 != num2); // !인해 반전
+		System.out.println(num1 >= num2); // 10(num2)이하의 숫자인가?
+		System.out.println(num1 <= num2); // 10(num1)이하의 숫자인가?
+		System.out.println(num1 < num2); // 10(num1) 보다 큰가?
+		System.out.println(num1 > num2); // 10(num2) 보다 큰가?
+		
+		//식의 연결 * : 논리 연산자 (여러개의 조건을 판단)
+		//최종적인 결과 true or false  의 결과만 나온다.
+		//조건식 A & 조건식 B: 조건식A 가 참이고 조건식 B 도 참일경우 =>TRUE
+		//&& (AND,*,논리곱): 1 * 1 = 1 / 1 * 0
+	    
+		//조건식 A || 조건식 B: 조건식 A가 참이면 조건식 B 와 관련없이 =>TRUE
+		// ||(OR,+,논리합): 1+? 0 / 0+0=0 A이거나 B
+		
+		
+		
+		System.out.println("구분----------------------------");
+		System.out.println(10 > 5 && 20>5);//true
+		System.out.println(10 > 5 && 1>5);//false
+		
+		
+	}
+
+}

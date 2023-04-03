@@ -1,0 +1,26 @@
+
+public class Test01 {
+	public static void main(String[] args) {
+		int iNum;
+		iNum=1;
+		System.out.println(iNum);
+		
+		long lNum;
+		lNum= 2;
+		
+		double dNum;
+		dNum= 3.14;
+		
+		byte bNum;
+		bNum= 3;
+		
+		float fNum;
+		fNum= 3.14F;
+		
+		String kim;
+		kim= "123";
+		
+		
+	}
+
+}
